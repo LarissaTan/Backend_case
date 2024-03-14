@@ -1,8 +1,13 @@
 # Backend_case
-<br></br>
+****
 ## Instruction
-
+### 1. How to run the code?
+    Step 1: open the Backend_case file on Terminal
+    Step 2: run the file app.py (if the table 'restaurant' doesn`t exist, then run the file get_data.py first)
+    Step 3: open an other Terminal and using the curl command as follow to test it
 <br></br>
+****
+## Test the API (curl command)
 ### 1. View a list of all restaurants.
 
 
