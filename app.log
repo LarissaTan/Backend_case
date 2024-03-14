@@ -1,0 +1,106 @@
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 111-393-929
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 111-393-929
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 111-393-929
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 21:47:38] "[31m[1mGET /restaurants HTTP/1.1[0m" 401 -
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 21:48:17] "[31m[1mGET /restaurants HTTP/1.1[0m" 401 -
+DEBUG:mysql.connector:Building SSL context
+DEBUG:mysql.connector:Switching to SSL
+DEBUG:mysql.connector:SSL has been enabled
+DEBUG:mysql.connector:Starting authorization phase
+DEBUG:mysql.connector:The provided initial strategy is caching_sha2_password
+INFO:mysql.connector:package: mysql.connector.plugins
+INFO:mysql.connector:plugin_name: caching_sha2_password
+INFO:mysql.connector:AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+DEBUG:mysql.connector:Exchanging further packets
+DEBUG:mysql.connector:caching_sha2_password completed succesfully
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 21:48:39] "GET /restaurants HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 21:49:30] "[35m[1mPOST /restaurants HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 21:52:29] "[35m[1mPOST /restaurants HTTP/1.1[0m" 500 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 111-393-929
+DEBUG:mysql.connector:Building SSL context
+DEBUG:mysql.connector:Switching to SSL
+DEBUG:mysql.connector:SSL has been enabled
+DEBUG:mysql.connector:Starting authorization phase
+DEBUG:mysql.connector:The provided initial strategy is caching_sha2_password
+INFO:mysql.connector:package: mysql.connector.plugins
+INFO:mysql.connector:plugin_name: caching_sha2_password
+INFO:mysql.connector:AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+DEBUG:mysql.connector:Exchanging further packets
+DEBUG:mysql.connector:caching_sha2_password completed succesfully
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 21:53:35] "[35m[1mPOST /restaurants HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 21:53:42] "GET /restaurants HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 21:54:02] "GET /restaurants/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 21:54:18] "[35m[1mPUT /restaurants/1 HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 21:54:42] "DELETE /restaurants/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 21:54:56] "GET /restaurants?page=1&per_page=5location=New%20York&cuisine=Italian HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 21:55:09] "GET /restaurants?page=1&per_page=5 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 21:55:44] "[35m[1mPOST /restaurants HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in '/Users/tanqianqian/Desktop/OA_Larissa/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 111-393-929
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 111-393-929
+DEBUG:mysql.connector:Building SSL context
+DEBUG:mysql.connector:Switching to SSL
+DEBUG:mysql.connector:SSL has been enabled
+DEBUG:mysql.connector:Starting authorization phase
+DEBUG:mysql.connector:The provided initial strategy is caching_sha2_password
+INFO:mysql.connector:package: mysql.connector.plugins
+INFO:mysql.connector:plugin_name: caching_sha2_password
+INFO:mysql.connector:AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+DEBUG:mysql.connector:Exchanging further packets
+DEBUG:mysql.connector:caching_sha2_password completed succesfully
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 22:01:38] "[35m[1mPOST /restaurants HTTP/1.1[0m" 201 -
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 22:01:48] "[33mPUT /restaurants/1 HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 22:02:31] "[33mPUT /restaurants/1 HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [13/Mar/2024 22:07:38] "PUT /restaurants/1 HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 111-393-929
+DEBUG:mysql.connector:Building SSL context
+DEBUG:mysql.connector:Switching to SSL
+DEBUG:mysql.connector:SSL has been enabled
+DEBUG:mysql.connector:Starting authorization phase
+DEBUG:mysql.connector:The provided initial strategy is caching_sha2_password
+INFO:mysql.connector:package: mysql.connector.plugins
+INFO:mysql.connector:plugin_name: caching_sha2_password
+INFO:mysql.connector:AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+DEBUG:mysql.connector:Exchanging further packets
+DEBUG:mysql.connector:caching_sha2_password completed succesfully
+INFO:werkzeug:127.0.0.1 - - [15/Mar/2024 01:22:26] "GET /restaurants HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Mar/2024 01:22:37] "[35m[1mPOST /restaurants HTTP/1.1[0m" 201 -
+INFO:werkzeug:127.0.0.1 - - [15/Mar/2024 01:22:52] "GET /restaurants/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Mar/2024 01:23:03] "PUT /restaurants/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Mar/2024 01:23:24] "DELETE /restaurants/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Mar/2024 01:23:30] "GET /restaurants?page=1&per_page=5location=New%20York&cuisine=Italian HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Mar/2024 01:23:41] "GET /restaurants?page=1&per_page=5 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Mar/2024 01:24:14] "GET /restaurants?page=1&per_page=5 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Mar/2024 01:24:16] "GET /restaurants?page=1&per_page=3 HTTP/1.1" 200 -
