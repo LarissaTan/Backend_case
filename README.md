@@ -1,12 +1,18 @@
 # Backend_case
-****
+
 ## Instruction
 ### 1. How to run the code?
 `Step 1`   Open the Backend_case file on Terminal<br/>
 `Step 2`   Run the file app.py (if the table 'restaurant' does not exist, then run the file get_data.py first)<br/>
 `Step 3`   Open an other Terminal and using the curl command as follow to test it
 
-****
+## SQL server info
+* With the information below, you could check the table via the database management tool or terminal<br/>
+Type: Mysql<br/>
+Host：rm-bp110at41skc47s4nzo.mysql.rds.aliyuncs.com  ` cloud server`<br/>
+User：root<br/>
+Password: Tan011205
+
 ## Test the API (curl command)
 ### 1. View a list of all restaurants.
 
