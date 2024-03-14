@@ -2,7 +2,7 @@
 </br></br>
 ## Instruction
 
-</br><br >
+</br></br >
 ### 1. View a list of all restaurants.
 < br >
 
@@ -12,11 +12,11 @@ curl -H "Authorization: 2dd09e4342550f67986b5d789002a13c" http://127.0.0.1:5000/
 ```
 < br >
 This command will send a GET request to the '/restaurants' , and the server should return a list of all restaurants. However, due to pagination limitations, without adding a page number, the first page will be displayed by default, with a maximum of 10 data.
-< br >< br >
+</br ></br >
 ### 2. Add a new restaurant to the list
 < br >
 ```
-curl -X POST -H "Content-Type: application/json" -H "Authorization: 2dd09e4342550f67986b5d789002a13c" -d "{ \"name\": \"Pizza Palace\", \"location\": \"New York\", \"contact\": {\"phone\": \"456-789-0123\", \"email\": \"info@pizzapalace.com\"}, \"cuisine\": \"Italian\", \"rating\": 4.8}" http://127.0.0.1:5000/restaurants
+curl -X POST -H "Content-Type: application/json" -H "Authorization: 2dd09e4342550f67986b5d789002a13c" -d "{ \"name\": \"Pizza Palace\", \"location\": \"New York\", \"contact\": {\"phone\": \"456-789-0123\", \"email\": \"info@pizzapalace.com\"}, \"cuisine\": \"Italian\", \"rating\": 4.8}" http://rm-bp110at41skc47s4nzo.mysql.rds.aliyuncs.com/restaurants
 
 ```
 < br >
@@ -28,6 +28,7 @@ Replace '<id>' with the actual ID of the restaurant you want to view.
 < br >
 ```
 curl -H "Authorization: 2dd09e4342550f67986b5d789002a13c" http://127.0.0.1:5000/restaurants/1
+curl -H "Authorization: 2dd09e4342550f67986b5d789002a13c" http://rm-bp110at41skc47s4nzo.mysql.rds.aliyuncs.com:3306/restaurants/1
 ```
 < br >
 This command sends a GET request to the '/restaurants/1' endpoint to obtain detailed information about the restaurant with ID 1.

@@ -8,20 +8,20 @@ from functools import wraps
 app = Flask(__name__)
 
 # database configuration (the uri need to be change base on the user environment)
-app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+mysqlconnector://root:12345678@127.0.0.1/sys'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+mysqlconnector://root:Tan011205@rm-bp110at41skc47s4nzo.mysql.rds.aliyuncs.com/dashmote_case'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 db = SQLAlchemy(app) 
 
 # Log configuration 
 # (specifying log file path and logging level)
-log_folder = r'/Users/tanqianqian/Desktop/OA_Larissa'  # need to be change based on the user environment
+log_folder = r'./'  # need to be change based on the user environment
 log_file = os.path.join(log_folder, 'app.log') 
 if not os.path.exists(log_folder):
     os.makedirs(log_folder)  
 logging.basicConfig(filename=log_file, level=logging.DEBUG)
 
 # Token configuration, generating and saving or reading application keys
-token_folder = r'/Users/tanqianqian/Desktop/OA_Larissa'  # need to be change based on the user environment
+token_folder = r'./'  # need to be change based on the user environment
 token_file_path = os.path.join(token_folder, 'token.txt')  
 # If the token folder does not exist, create
 if not os.path.exists(token_folder):

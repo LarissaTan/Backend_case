@@ -2,7 +2,7 @@ import pandas as pd
 from sqlalchemy import create_engine, text
 
 # Absolute path to CSV data file
-csv_file_path = r'/Users/tanqianqian/Desktop/OA_Larissa/restaurants.csv'
+csv_file_path = r'../restaurants.csv'
 
 # read the file
 df = pd.read_csv(csv_file_path)
@@ -13,10 +13,10 @@ in order to run the code successfully, some of the database information need to 
 '''
 DATABASE_TYPE = 'mysql'
 DBAPI = 'mysqlconnector'
-HOST = '127.0.0.1'  
+HOST = 'rm-bp110at41skc47s4nzo.mysql.rds.aliyuncs.com'  
 USER = 'root'  
-PASSWORD = '12345678' 
-DATABASE = 'sys'  
+PASSWORD = 'Tan011205' 
+DATABASE = 'dashmote_case'  
 PORT = 3306  
 
 engine = create_engine(f"{DATABASE_TYPE}+{DBAPI}://{USER}:{PASSWORD}@{HOST}:{PORT}/{DATABASE}")
