@@ -2,7 +2,7 @@
 </br>
 ## Instruction
 
-</br>
+<br></br>
 ### 1. View a list of all restaurants.
 
 
